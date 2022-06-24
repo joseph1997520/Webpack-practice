@@ -1,32 +1,27 @@
 <template>
-  <nav>
-    <!-- <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/address">Address</router-link> |
-    <router-link to="/contact">Contact</router-link> -->
-    <router-link :to="{name:'Home'}">Home</router-link> |
-    <router-link :to="{name:'About'}">About</router-link> |
-    <router-link :to="{name:'Address'}">Address</router-link> |
-    <router-link :to="{name:'Contact'}">Contact</router-link>
-  </nav>
-  <router-view/>
-  <!-- <router-view></router-view> -->
+  <div>
+    <!-- <test-hello></test-hello> -->
+    <Hello></Hello>
+    <Hello />
+    <Aqq />
+    <Aqq></Aqq>
+    <Logo />
+  </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Hello from '@/components/Hello.vue';
+import Aqq from '@/components/Aqq.vue';
+  export default {
+    components:{
+      // 'test-hello':Hello
+      // Hello:Hello
+      Hello,
+      Aqq,
+    }
+  }
+</script>
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+<style lang="scss" scoped>
 
 </style>

@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import Address from '../views/AddressView.vue'
 import Contact from '../views/ContactView.vue'
 
+
 const routes = [
   {
     path: '/',

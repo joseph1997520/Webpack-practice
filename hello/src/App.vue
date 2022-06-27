@@ -45,5 +45,5 @@ import Contact from '@/components/Contact.vue';
 </script>
 
 <style lang="scss" scoped>
-
+  // @import "~bootstrap/scss/bootstrap";
 </style>

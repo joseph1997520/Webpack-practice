@@ -1,7 +1,6 @@
 <template>
     <div>
         <h1>今天很熱</h1>
-        <Logo></logo>
     </div>
 </template>
 
